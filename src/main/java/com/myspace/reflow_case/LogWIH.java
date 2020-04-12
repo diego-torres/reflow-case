@@ -10,7 +10,7 @@ import org.kie.api.runtime.process.WorkItemManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LogWIH implements implements WorkItemHandler {
+public class LogWIH implements WorkItemHandler {
     private static Logger log = LoggerFactory.getLogger(LogWIH.class);
     @Override
     public void abortWorkItem(WorkItem workItem, WorkItemManager manager) {
